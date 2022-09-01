@@ -1,0 +1,28 @@
+body{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    min-height: 100vh;
+    margin: 0; 
+}
+
+.menu {
+    background-color: black;
+    
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+a{
+color: deeppink;
+text-decoration: none;
+}
+a:hover{
+    color:darkmagenta
+}
+
+a:active{
+    color: rgb(46, 9, 73);
+}
